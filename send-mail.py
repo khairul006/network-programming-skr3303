@@ -19,10 +19,9 @@ smtp.login(username, paswd)
 msg = email.message.EmailMessage()
 
 # set header
-msg.add_header('From','naiisu006@gmail.com')
-msg.add_header('To','naiisu006@.com')
-#msg.add_header('Cc','202180@student.upm.edu.my')
-#msg.add_header('Cc','dridawatyahmad@yahoo.com')
+msg.add_header('From','sender@gmail.com')
+msg.add_header('To','receiver1@.com')
+#msg.add_header('Cc','receiver2@yahoo.com')
 msg.add_header('Subject','Khairul-Email from send-mail.py')
 
 
@@ -31,7 +30,7 @@ body = '''
 Salam, hi
 Kindly check the attachments. Wkwkwkwkwk
 Regards,
-Khairul Zamidi
+Github
 '''
 msg.set_content(body)
 
