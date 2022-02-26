@@ -20,9 +20,8 @@ username = input('Enter your Gmail username: ')
 paswd = getpass.getpass(prompt='Enter your Gmail password: ')
 smtp.login(username, paswd)
 
-smail = 'naiisu006@gmail.com'   # sender
-rmail = 'naiisu006@gmail.com'  # receiver
-#rmail = 'dridawatyahmad@yahoo.com'  # receiver
+smail = 'sender@gmail.com'   # sender
+rmail = 'receiver@gmail.com'  # receiver
 
 msg = '''\
 Subject: Khairul-Testing SendTextMail-Port 465
