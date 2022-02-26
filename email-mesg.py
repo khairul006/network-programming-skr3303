@@ -4,13 +4,10 @@ import email.message
 msg = email.message.EmailMessage()
 
 # set header
-msg.add_header('From', 'naiisu006@gmail.com')
-msg.add_header('To', 'naiisu006@yahoo.com')
-msg.add_header('Cc', 'dridawatyahmad@yahoo.com')
+msg.add_header('From', 'sender1@gmail.com')
+msg.add_header('To', 'receiver1@yahoo.com')
+msg.add_header('Cc', 'receiver2@yahoo.com')
 msg.add_header('Subject', 'Testing email-message')
-
-
-
 
 # set contents
 body = '''
